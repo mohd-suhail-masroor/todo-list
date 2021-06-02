@@ -37,7 +37,7 @@ function Task({task,deleteHandler}) {
         <div className={`task`} key={task.id}>
             <h3 className='id'>{task.id}</h3>
             <span className={`${activeOrInactive}-task-span-1`}>
-                <h2 className={`${activeOrInactive}-task-name`}>{task.name}</h2>
+                <h2 className={`${activeOrInactive}-task-name`}>{task.name} draggable={false}</h2>
                 <p className="time-date">{`on ${task.date} at ${task.time}`}</p>
             </span>
             <span className="task-span-2">
