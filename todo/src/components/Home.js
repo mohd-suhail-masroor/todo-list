@@ -21,11 +21,11 @@ function Home() {
     return (<>
         {error && <div className='error'>{error}</div>}
         {isLoading && <div className='isLoading'>Loading...</div>}
-        {tasks && (
+        {tasks ? (
              <div className='home'>
                 <Tasks tasks={tasks} deleteHandler={deleteHandler}></Tasks> 
             </div>
-        )}
+        ):(<h2>Sorry... No task to show</h2>)}
         </>
     )
 }
