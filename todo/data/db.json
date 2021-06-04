@@ -1,22 +1,3 @@
 {
-  "tasks": [
-    {
-      "name": "gwr mein double dil farma parvez ko dena hai",
-      "date": "2021-06-02",
-      "time": "13:04",
-      "id": 1
-    },
-    {
-      "name": "CON ke order ke liye parvez ko call karni hai",
-      "date": "2021-06-03",
-      "time": "09:30",
-      "id": 2
-    },
-    {
-      "name": "shuaib ko call karna hai RS nativity sample ",
-      "date": "2021-06-03",
-      "time": "10:30",
-      "id": 3
-    }
-  ]
+  "tasks": []
 }
